@@ -22,7 +22,7 @@ body {
   position: absolute;
   background: var(--White);
   border-radius: var(--border_radius);
-  height: 30rem;
+  height: 31rem;
   width: 20rem;
   left: 50%;
   top: 50%;
@@ -42,6 +42,7 @@ body {
   text-align: center;
 }
 .qr-code-header {
+  padding-top: 1.2rem;
   font-weight: 700;
   color: var(--Dark_blue);
   font-size: 1.5rem;
