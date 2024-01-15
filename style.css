@@ -10,23 +10,24 @@
   --padding-small: 0.5rem 1.2rem;
 }
 
+/*@danielmrz-dev suggested display: flex, justify-content:center; align-items; instead of absolute positioning, thank you! */
 html,
 body {
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   margin: 0;
   background: var(--Light_gray);
   font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .qr-code-card {
-  position: absolute;
   background: var(--White);
   border-radius: var(--border_radius);
   height: 31rem;
   width: 20rem;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+
   box-shadow: 0 0.4rem 3rem 0 hsla(219, 15%, 55%, 0.824);
 }
 .qr-code {
